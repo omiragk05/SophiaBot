@@ -65,6 +65,6 @@ __help__ = """
 <b> Book </b>
 <b>Available commands:</b>
  - /books book name : Usage :Gets Instant Download Link Of Given Book.
-@SophiaSLBot ❤
+@MissAnna_robot
 """
 __mod_name__ = "Books"
