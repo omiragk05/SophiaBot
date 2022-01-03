@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there! My name is <b>Sophia.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"""
+PM_START_TEXT = """Hey there! My name is Anna\nI can help manage your groups with useful features, feel free to add me to your groups!"""
 
 buttons = [
     [
@@ -86,19 +86,15 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Sophia News 🙋‍♀️ ", url=f"https://t.me/SophiaUpdates"),
-        InlineKeyboardButton(text="Support Group 💬 ", url=f"https://t.me/SophiaSupport_Official"),
-    ],
-    [
-        InlineKeyboardButton(text="➕ Add me to your Group ➕", url="t.me/SophiaSLBot?startgroup=true"),   
+        InlineKeyboardButton(text="➕ Add me to your Group ➕", url="t.me/MissAnna_robot?startgroup=true"),   
     ],
 ]
 
 HELP_STRINGS = """
-Hi Boss! I'm <b>Sophia</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you.
+Hi Boss! I'm Anna. A powerful group management bot with many handy tools. So why are you waiting. Let me to assist you.
 """
 
-DONATE_STRING = """ Join Updates Channel @SophiaUpdates | Support Group @SophiaSupport_Official"""
+DONATE_STRING = """ no need i'm rich @omiragk """
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -207,7 +203,7 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_text("Heya, Sophia here :) PM me if you have any questions how to use me!")
+        update.effective_message.reply_text("Hey, Anna here :) PM me if you have any questions how to use me!")
 
 
 def error_handler(update, context):
@@ -338,16 +334,12 @@ def sophia_about_callback(update, context):
     query = update.callback_query
     if query.data == "sophia_":
         query.message.edit_text(
-            text=""" My name is *Sophia*, I have been written with Pyrogram and Telethon.. I'm online since 10 June 2021 and is constantly updated!
-*Bot Version: 3.0*
+            text=""" My name is *Anna*, I have been written with Pyrogram and Telethon..
+*Bot Version: 1.0*
 \n*Bot Developers:*
--  @dihanrandila
--  @InukaASiTH
-\n* Updates Channel:* @SophiaUpdates
-* Support Chat:* @SophiaSupport_Official
-                 \n\n* And finally special thanks of gratitude to all my users who relied on me for managing their groups, I hope you will always like me; My developers are constantly working to improve me!
-                 \n\n *Licensed under the GNU Affero General Public Lisence v3.0*
-                 \n© 2020 - 2021 @SophiaSLBot. All Rights Reserved """,
+-  @omiragk 
+\n* Support Chat:* @omiragk
+                 \n\n* And finally special thanks of gratitude to all my users who relied on me for managing their groups, I hope you will always like me; My developers are constantly working to improve me!""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -374,7 +366,7 @@ def sophia_about_callback(update, context):
             text=f"*Here's basic Help regarding* *How to use Me?*"
             f"\n\n• Firstly Add {dispatcher.bot.first_name} to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n• After adding promote me manually with full rights for faster experience.\n"
-            f"\n• Than send `/admincache@SophiaSLBot` in that chat to refresh admin list in My database.\n"
+            f"\n• Than send `/admincache@MissAnna_robot` in that chat to refresh admin list in My database.\n"
             f"\n\n*All done now use below given button's to know about use!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -400,7 +392,7 @@ def sophia_about_callback(update, context):
     elif query.data == "sophia_admin":
         query.message.edit_text(
             text=f"*Let's make your group bit effective now*"
-            f"\nCongragulations, *Sophia* now ready to manage your group."
+            f"\nCongragulations, *Anna* now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -427,14 +419,13 @@ def sophia_about_callback(update, context):
         )
     elif query.data == "sophia_support":
         query.message.edit_text(
-            text="* Sophia's Updates News & Supports*"
-            "\nJoin Support Group & Updates Channel",
+            text="* contact my owner *"
+            "\n @omiragk ",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support Group", url="t.me/dihan_official"),
-                    InlineKeyboardButton(text="Updates Channel", url="t.me/dihanofficial"),
+                    InlineKeyboardButton(text="owner", url="t.me/omiragk"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="sophia_basichelp"),
@@ -451,8 +442,8 @@ def sophia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Dihan", url="t.me/dihanrandila"),
-                    InlineKeyboardButton(text="Inuka", url="t.me/InukaASiTH"),
+                    InlineKeyboardButton(text="Dihan", url="t.me/MissAnna_robot"),
+                    InlineKeyboardButton(text="Inuka", url="t.me/MissAnna_robot"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="sophia_basichelp"),
@@ -485,13 +476,6 @@ def Source_about_callback(update, context):
                     InlineKeyboardButton(text="🙋‍♀️ About Me", callback_data="sophia_"),
                     InlineKeyboardButton(text="❓ Basic Help", callback_data="sophia_basichelp"),
                   ],
-                  [
-                    InlineKeyboardButton(text=" Special Credits ❤ ", url=f"https://telegra.ph/Special-Credits-08-21"),
-                    InlineKeyboardButton(text="Terms And Conditions 📄 ", url=f"https://telegra.ph/Terms-and-Conditions-08-21"),
-                  ],
-                  [
-                    InlineKeyboardButton(text="💾 Source Code", url=f"https://github.com/dihanofficial/SophiaBot"),
-                 ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="source_back")
                  ]
@@ -786,10 +770,10 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I'm Online Now! 💫 | Join my Group @SophiaSupport_Official ❤")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I'm Online Now! 💫")
         except Unauthorized:
             LOGGER.warning(
-                "Bot isnt able to send message to Support Group, go and check!.| Support Group @SophiaSupport_Official ❤"
+                "Bot isnt able to send message to Support Group, go and check!."
             )
         except BadRequest as e:
             LOGGER.warning(e.message)
