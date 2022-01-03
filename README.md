@@ -1,3 +1,22 @@
+## Special Credits
+- [Dihan Randila](https://github.com/dihanofficial): Dev / Owner
+- [InukaAsith](https://github.com/InukaAsith): Dev 
+- [Rodolphus Lestrang](https://github.com/PercyOfficial)
+- [Damantha Jasinghe](https://github.com/Damantha126)
+- [Denuwan](https://github.com/ImDenuwan)
+- [DaisyX](https://github.com/teamdaisyx/daisyx)
+- [TroJanzHEX](https://github.com/TroJanzHEX)
+- [infotechbro](https://github.com/infotechbro/)
+- [Thehamkercat](https://github.com/thehamkercat)
+- [FridayUserbot](https://github.com/DevsExpo/FridayUserbot)
+- [MissJuliaRobot](https://github.com/MissJuliaRobot/MissJuliaRobot)
+- [ADV-Auto-Filter-Bot-V2](https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2)
+- [Image-Editor](https://github.com/TroJanzHEX/Image-Editor/)
+- [WilliamButcherBot](https://github.com/thehamkercat/WilliamButcherBot)
+- [Mr-Dark-Prince](https://github.com/Mr-Dark-Prince/)
+- [Im-Janindu](https://github.com/imjanindu)
+
+
 
 ### Deploy To Heroku</h4>
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dihanofficial/Sophiabot)
