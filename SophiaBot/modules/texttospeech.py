@@ -49,7 +49,7 @@ async def _(event):
         return
     if event.is_group:
      if not (await is_register_admin(event.input_chat, event.message.sender_id)):
-       await event.reply("🚨 Need Admin Pewer.. You can't use this command.. But you can use in my [Pm](http://t.me/SophiaSLBot)")
+       await event.reply("🚨 Need Admin Pewer.. You can't use this command.. But you can use in my [Pm](http://t.me/MissAnna_robot)")
        return
 
     input_str = event.pattern_match.group(1)
@@ -86,8 +86,8 @@ async def _(event):
     except gTTSError:
         await event.reply("Error in Google Text-to-Speech API request !")
         return
-    with open("TalkingSophia.mp3", "r"):
+    with open("Talkinganna.mp3", "r"):
         await tbot.send_file(
-            event.chat_id, "TalkingSophia.mp3", voice_note=True, reply_to=reply_to_id
+            event.chat_id, "Talkinganna.mp3", voice_note=True, reply_to=reply_to_id
         )
-        os.remove("TalkingSophia.mp3")
+        os.remove("Talkinganna.mp3")
