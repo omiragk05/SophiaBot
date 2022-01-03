@@ -97,6 +97,6 @@ __New couple of the day may be chosen at 12AM {tomorrow}__"""
 __help__ = """
 - /couples - To Choose Couple Of The Day ❤
 
- @SophiaUpdates 
+@MissAnna_robot
  """
 __mod_name__ = "Couples"
