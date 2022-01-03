@@ -92,7 +92,7 @@ async def phone(event):
 __help__ = """
 *Commands:*
 • `/phone <no>`*:* find phone number details.
-@SophiaSLBot
+
 """
 
 __mod_name__ = "Phone"
