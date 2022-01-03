@@ -44,7 +44,7 @@ async def _(event):
             with open("PicByGalaxy.jpg", "wb") as f:
                 f.write(response.content)
 
-        captin = f"Fake Image powered by @GalaxyLanka."
+        captin = f"Fake Image powered by @MissAnna_robot."
         fole = "PicByGalaxy.jpg"
         await Galaxy.send_file(event.chat_id, fole, caption=captin)
         await event.delete()
