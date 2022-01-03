@@ -1,45 +1,6 @@
-<h1 align="center"><b>❤ Sophia v3 ❤</b></h1>
-
-
-<p align="center"><a href="https://t.me/SophiaSupport_Official"><img src="https://telegra.ph/file/f6afa44d010598c379503.jpg" width="400"></a></p>
-<p align="center">
-  <h4 align="center"><b>A Powerful, Smart And Simple Group Manager <br> ... Written with  Pyrogram and Telethon...</b></h4>  
-
-<p align="center">
-    <a href="https://github.com/dihanofficial/sophiabot/stargazers"><img src="https://img.shields.io/github/stars/dihanofficial/SophiaBot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
-</p>
-<p align="center">
-    <a href="https://app.codacy.com/manual/dihanofficial/Sophiabot/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/dihanofficial/sophiabot"> <img src="https://img.shields.io/github/repo-size/dihanofficial/sophiabot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/dihanofficial/sophiabot/commits/dihanofficial"> <img src="https://img.shields.io/github/last-commit/dihanofficial/sophiabot?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/dihanofficial/sophia/issues"> <img src="https://img.shields.io/github/issues/dihanofficial/sophiabot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/dihanofficial/sophiabot/network/members"> <img src="https://img.shields.io/github/forks/dihanofficial/sophiabot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
-    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
-</p>
-
-
- <b> ⭐️ Thanks to everyone who starred Sophia, That is the greatest pleasure we have ! </b> 
-
-
-
-## Avaiilable on Telegram as [@SophiaSLBot](https://t.me/sophiaslbot)
-
-### Video Tutorial:
-Complete guide on deploying @SophiaSLBot's clone on Heroku.
-
-🙋‍♂️ Video by [Dihan Randila](https://youtu.be/Yyw2TfwQTSg) ☆
-[![YouTube](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://youtu.be/Yyw2TfwQTSg)
 
 ### Deploy To Heroku</h4>
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dihanofficial/Sophiabot)
-
-
-
-
-## Join my Updates Channel & Support Chats
-<a href="https://t.me/SophiaSUPPort_official"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/SophiaUpdates"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
-
 
 
 ### Configuration
@@ -196,34 +157,8 @@ You can use [nssm](https://nssm.cc/usage) to install the bot as service on windo
 Make sure to edit the start and restart bats to your needs. 
 Note: the restart bat requires that User account control be disabled.
 
-For queries or any issues regarding the bot please open an issue ticket or visit us at [Support](https://t.m/SophiaSupport_Official)
-## How to setup on Heroku 
-For starters click on this button 
-</details>  
 
 
 
 
-
-
-#### Contributors
-- [Dihan Randila](https://github.com/dihanofficial): Dev / Owner
-- [InukaAsith](https://github.com/InukaAsith): Dev 
-- [Rodolphus Lestrang](https://github.com/PercyOfficial)
-- [Damantha Jasinghe](https://github.com/Damantha126)
-- [Denuwan](https://github.com/ImDenuwan)
-
-## Special Credits
-
-- [DaisyX](https://github.com/teamdaisyx/daisyx)
-- [TroJanzHEX](https://github.com/TroJanzHEX)
-- [infotechbro](https://github.com/infotechbro/)
-- [Thehamkercat](https://github.com/thehamkercat)
-- [FridayUserbot](https://github.com/DevsExpo/FridayUserbot)
-- [MissJuliaRobot](https://github.com/MissJuliaRobot/MissJuliaRobot)
-- [ADV-Auto-Filter-Bot-V2](https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2)
-- [Image-Editor](https://github.com/TroJanzHEX/Image-Editor/)
-- [WilliamButcherBot](https://github.com/thehamkercat/WilliamButcherBot)
-- [Mr-Dark-Prince](https://github.com/Mr-Dark-Prince/)
-- [Im-Janindu](https://github.com/imjanindu)
 
