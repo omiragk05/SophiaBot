@@ -173,6 +173,5 @@ __help__ = """
 • `/lyrics`** <songname artist(optional)>: sends the complete lyrics of the song provided as input
 • `/glyrics`** <i> song name </i> : This plugin searches for song lyrics with song name and artist.
 
-@SophiaSLBot 
 """
 
